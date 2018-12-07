@@ -1,18 +1,18 @@
-buildscript {
-    repositories {
-        mavenLocal()
-    }
-    dependencies {
-        classpath 'pl.mkarebski:hello-world-plugin:1.0-SNAPSHOT'
-    }
-}
+//buildscript {
+//    repositories {
+//        mavenLocal()
+//    }
+//    dependencies {
+//        classpath 'pl.mkarebski:hello-world-plugin:1.0-SNAPSHOT'
+//    }
+//}
 
 plugins {
     id 'java-gradle-plugin'
     id 'maven-publish'
 }
 
-apply plugin: 'HelloWorldPlugin'
+//apply plugin: 'HelloWorldPlugin'
 
 project.description = 'Hello world plugin'
 project.group = 'pl.mkarebski'
