@@ -8,3 +8,5 @@ To run ```hello``` task:
 4) Uncomment ```buildscript``` section and ```apply plugin: 'HelloWorldPlugin'``` line to use plugin
 5) Run ```./gradlew hello```
 6) You should see ```Hello world from the plugin!``` in your terminal
+
+To test application run ```./gradlew test``` in project directory

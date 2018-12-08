@@ -8,6 +8,7 @@
 //}
 
 plugins {
+    id 'groovy'
     id 'java-gradle-plugin'
     id 'maven-publish'
 }
@@ -25,7 +26,9 @@ repositories {
 }
 
 dependencies {
+    testCompile gradleTestKit()
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    testCompile group: 'org.spockframework', name: 'spock-core', version: '1.2-groovy-2.4'
 }
 
 gradlePlugin {
